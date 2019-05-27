@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--
+			3.外部引入
+			有利于更新维护
+			有利于团队开发
+			一套代码可以设置多个页面
+			相对与一页代码，垃圾代码多
+			会对服务器造成压力
+			用于活动页
+		-->
+		<link rel="stylesheet" type="text/css" href="css/外部引入.css" />
+		<!--
+        		2.头部引入
+        		不会对服务器造成压力
+        		不利于更新维护
+        		用于主页
+        -->
+		<style>
+			div{
+				width: 100px;
+				height: 100px;
+				background-color: skyblue;
+			}
+		</style>
+	</head>
+	<body>
+	<!--
+		1.标签内引入
+		优先级高
+		冗余代码多
+		配合js使用
+	-->
+		<!--<div style="width: 100px;height: 100px;background-color: red;"></div>-->
+	</body>
+</html>
