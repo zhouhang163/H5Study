@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<!-- 1.标签名选择器 -->
+		<!-- 2.类选择器   .+class名 选择 
+		可以有多个相同的class 
+		一个标签可以有多个class   用空格隔开
+		-->
+		<style type="text/css">
+			.zhangsan{
+				width: 100px;
+				height: 100px;
+				background-color: red;
+			}
+			.goudan{
+				/* width: 100px;
+				height: 100px;
+				background-color: green; */
+				/* 边框 */
+				border: 5px solid green;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<!-- 选择器：让我们可以更加精确的选择自己想要的样式的标签 -->
+		<div class="zhangsan">
+			我是zhangsandiv
+		</div>
+		<div class="goudan">
+			我是goudandiv
+		</div>
+		<div class="zhangsan goudan">
+			我是合体
+		</div>
+	</body>
+</html>
