@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			/* 伪类
+			1.link：未访问的默认样式
+			2.hover：鼠标移入时的样式
+			3.active：正在访问时的样式
+			4.visited：访问过后的样式
+			 */
+			.a1:link{
+				color: red;
+			}
+			.a1:hover{
+				/* 鼠标移入变小手default\none\pointer */
+				cursor: pointer;
+				color: yellow;
+			}
+			.a1:active{
+				font-size: 50px;
+				color: green;
+			}
+			.a1:visited{
+				color: gray;
+			}
+			
+			.div1:hover{
+				background-color: green;
+			}
+		</style>
+	</head>
+	<body>
+		<a class="a1" href="###" title="">草泥马</a>
+		<a href="###">草泥马2</a>
+		<div class="div1">
+			div
+		</div>
+	</body>
+</html>

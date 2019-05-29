@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			/* 权重值
+			标签名选择器：1
+			class选择器：10
+			id选择器：100
+			
+			1.不可以越级比较
+			2.style优先级高
+			3.!improtant优先级最高  慎用
+			 */
+			
+			.div1 div{
+				color: red !improtant;
+			}
+			.div1 .div2 {
+				color: blue;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="div1" id="div1">
+			<div class="div2" id="div2" style="color: bisque;">
+				div2
+			</div>
+		</div>
+	</body>
+</html>
